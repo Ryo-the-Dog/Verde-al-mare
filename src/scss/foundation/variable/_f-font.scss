@@ -1,0 +1,22 @@
+/* Variable
+==================================== */
+/* fontを定義しています。
+------------------------------------ */
+// font-family
+$font-family_base: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+// 英文のみの場合
+$font-family_corp: 'Playfair Display', serif;
+// TODO:fontがあまり意味を為していない。
+// イタリック体の場合はfont-styleに適用
+$font-italic: italic;
+$font-family_sans-serif: 'Montserrat', sans-serif;
+
+// font-size
+$font-size_xxs: 14px;
+$font-size_xs: 16px;
+$font-size_s: 18px;
+$font-size_m: 20px;
+$font-size_default: 24px;
+$font-size_l: 30px;
+$font-size_xl: 38px;
+$font-size_3l: 56px;

@@ -1,0 +1,31 @@
+/* Base
+   ==================================== */
+// Baseレイヤーにはページの基本的なベーススタイルを定義します。
+
+// paddingとborderをwidthに含めます。
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+a {
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+// body全体の共通スタイルです。
+body {
+	background-image: url('../dist/img/paper-bg.png');
+	color: $color_main;
+	font-family: $font-family_corp;
+}
+input,select {
+	outline: none;
+}
+select {
+	cursor: pointer;
+}

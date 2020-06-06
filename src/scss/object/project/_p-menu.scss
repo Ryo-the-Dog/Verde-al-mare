@@ -1,0 +1,24 @@
+/* ====================================
+Project
+==================================== */
+/* MENUセクションのスタイルを定義しています。
+------------------------------------ */
+.p-panel-group {
+	flex-wrap: wrap;
+	font-family: $font-family_corp;
+	margin-right: -1%;
+}
+.p-menus {
+	margin-bottom: $space_3l;
+	&__menuName {
+		font-size: $font-size_default;
+		@include mq(lg) {
+			font-size: $font-size_m;
+		}
+	}
+	&__price {
+		font-size: $font-size_s;
+		margin-top: $space_m;
+	}
+
+}

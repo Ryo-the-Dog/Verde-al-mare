@@ -1,0 +1,13 @@
+/* ====================================
+Project
+==================================== */
+/* フッターのスタイルを定義しています。
+------------------------------------ */
+.p-footer {
+	background-color: $color_main;
+	color: $color_white;
+	font-size: $font-size_xxs;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}

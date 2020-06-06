@@ -1,0 +1,30 @@
+/* ====================================
+Component
+==================================== */
+/* タイトルのスタイルを定義しています。
+------------------------------------ */
+// メインタイトル
+.c-title-main {
+	font-size: $font-size_l;
+	font-family: $font-family_corp;
+	margin-bottom: -4px;
+	@include mq() {
+		margin-bottom: -8px;
+		
+	}
+}
+// サブタイトル
+.c-title-sub {
+	font-size: $font-size_l;
+	font-family: $font-family_corp;
+}
+// コンテンツのタイトル
+.c-container-title {
+	font-size: $font-size_l;
+	font-style: $font-italic;
+	font-family: $font-family_corp;
+	padding: $space_l 0 ;
+	margin-bottom: $space_3l;
+	text-align: center;
+	
+}
